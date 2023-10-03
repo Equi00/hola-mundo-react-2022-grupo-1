@@ -1,0 +1,83 @@
+.vehicle-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.vehicle-card{
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.search{
+    display: flex;
+    padding: 1.5rem 0 0 0;
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  .vehicle-card-icon{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(182, 174, 174);
+    border-radius: 0.44em 0.44em 0px 0px;
+    width: 100%;
+    color: white;
+  }
+
+  .type-icon{
+    display: flex;
+    align-items: center;
+    font-weight: bold;  
+  }
+ 
+  .vehicle-type{
+    padding: 0 0.5em 0 0.5em;
+  }
+  
+  .vehicle-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0 10px 10px 10px;
+  }
+
+  .vehicle-brand-contract{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  p {
+    margin: 0px;
+  }
+
+  .vehicle-with-contract{
+    padding-top: 10px;
+  }
+  
+  .vehicle-card-costs .vehicle-costs{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .vehicle-card-costs .vehicle-total-cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .space{
+    height: 4rem;
+  }
+
+  .space-brand{
+    padding-left: 1em;
+  }

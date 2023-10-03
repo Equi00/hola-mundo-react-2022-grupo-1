@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option{
+    color: rgb(105, 105, 105);
+    display: flex;
+    justify-content: center;
+}
+
+.input-name{
+    padding: 0.3em 0;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-container Button {
+  margin: 30px 10px;
+}
+
+  .kilometer-check{
+    display:flex;
+    justify-content: left;
+    width: 19em;
+    color: rgb(105, 105, 105);
+  }
+
+  .mark-icon{
+    margin-top: 20px;
+  }
+
+  .vehicle-brand{
+    display: flex;
+    padding-top: 0.5em;
+    justify-content:right;
+  }
+
+  .icon-and-brand{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-container{
+    display: flex;
+    justify-content:center;
+  }

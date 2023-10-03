@@ -1,0 +1,78 @@
+.activity-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-card-title {
+  font-size: 16px;
+  color: #000;
+  padding: 0px 10px;
+}
+
+.activity-card {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.activity-card-info-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+
+.activity-card-info-difficulty {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 70px 0 70px;
+}
+
+.activity-card-info-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+
+.activity-edit-input {
+  background-color: '#ffffff';
+  width: '80%';
+}
+
+.activity-form-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.activity-form-buttons Button {
+  margin: 30px 10px;
+}
+
+.below-box {
+  height: 50px;
+}
+
+.not-selectable {
+  user-select: none;
+}
+
+.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  display: flex!important;
+}
+
+.activity-error-text {
+  color: red;
+}
+
+@media screen and (max-height: 849px) {
+  .activity-form-buttons Button {
+    margin: 60px 10px;
+  }
+}

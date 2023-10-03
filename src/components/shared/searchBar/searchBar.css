@@ -1,0 +1,13 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  padding: 10px 4px 10px 10px;
+  height: 20px;
+  width: 80%;
+}
+
+.search-bar .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  padding-left: 2px;
+}
